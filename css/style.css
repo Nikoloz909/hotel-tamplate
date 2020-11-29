@@ -166,10 +166,14 @@
 
 .bg-image-01 {
     background-image: url('../img/Group\ 13.png');
-    height: 625px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.block-wrappers {
+    justify-content: space-between;
+    padding-bottom: 90px;
 }
 
 .block-title-h3 {
@@ -177,6 +181,49 @@
     padding-top: 92px;
     text-transform: uppercase;
     font-family: 'Poppins-bold';
+    font-size: 14px;
+}
+
+.block-title-par {
+    font-family: 'Poppins-bold';
+    font-size: 42px;
+    width: 376px;
+    color: #fff;
+}
+
+.box-01 {
+    max-width: 260px;
+    width: 100%;
+    background-color: #fff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue-box-01 {
+    width: 60px;
+    height: 60px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box-01-p {
+    width: 166px;
+    font-family: 'Poppins-bold';
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.box-01-par {
+    width: 221px;
+    color: #B1B1B1;
+    padding-top: 20px;
+    padding-bottom: 26px;
+    font-family: 'Poppins-medium';
     font-size: 14px;
 }
 
