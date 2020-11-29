@@ -173,6 +173,7 @@
 
 .block-wrappers {
     justify-content: space-between;
+    padding-top: 34px;
     padding-bottom: 90px;
 }
 
@@ -229,3 +230,30 @@
 
 
 /* section -02 end  */
+
+
+/* section- 03  */
+
+.section-03 {
+    background-color: #F8F8F8;
+}
+
+.left-block-03 {
+    padding-top: 76px;
+}
+
+.left-block-h3 {
+    font-size: 14px;
+    font-family: 'Poppins-bold';
+    color: #5863F8;
+}
+
+.left-block-par-03 {
+    font-size: 42px;
+    font-family: 'Poppins-medium';
+    font-weight: bold;
+    width: 512px;
+}
+
+
+/* section -03 end  */
