@@ -47,12 +47,48 @@
     text-transform: uppercase;
 }
 
+.fa-bars {
+    font-size: 30px;
+    color: #fff;
+    display: none;
+}
+
 .nav-li:first-child {
     color: #5863F8;
 }
 
 .nav-li:last-child {
     margin-right: 0px;
+}
+
+.about {
+    margin-top: 96px;
+}
+
+.about-h2 {
+    font-family: 'Poppins-bold';
+    font-size: 42px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home-par {
+    margin-top: 14px;
+}
+
+.home-p,
+.about-p {
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.divider {
+    width: 2px;
+    height: 16px;
+    background-color: #fff;
+    margin: 0 15px;
 }
 
 
