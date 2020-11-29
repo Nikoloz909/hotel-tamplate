@@ -1,0 +1,59 @@
+/* base classes */
+
+.container {
+    max-width: 1088px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+
+/* base classes end  */
+
+
+/* header section  */
+
+.bg-image {
+    background-image: url('../img/Group\ 72.png');
+    height: 325px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-navigation {
+    justify-content: space-between;
+    padding-top: 32px;
+}
+
+.logo-title {
+    color: #fff;
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+}
+
+.navbar {
+    color: #fff;
+    font-family: 'Poppins-medium';
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-li {
+    margin-right: 60px;
+    text-transform: uppercase;
+}
+
+.nav-li:first-child {
+    color: #5863F8;
+}
+
+.nav-li:last-child {
+    margin-right: 0px;
+}
+
+
+/* header section end  */
