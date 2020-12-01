@@ -240,6 +240,7 @@
 
 .left-block-03 {
     padding-top: 76px;
+    width: 512px;
 }
 
 .left-block-h3 {
@@ -255,5 +256,96 @@
     width: 512px;
 }
 
+.image-03 {
+    max-width: 583px;
+    width: 100%;
+}
+
+.text-block-03 {
+    margin-top: 30px;
+}
+
+.text-block-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-block-03-p {
+    align-self: center;
+    margin-left: 20px;
+    font-family: 'Poppins-bold';
+    font-size: 18px;
+    display: inline-block;
+}
+
+.text-block-par-03 {
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    padding-top: 20px;
+    max-width: 352px;
+    width: 100%;
+}
+
 
 /* section -03 end  */
+
+
+/* section-04  */
+
+.section-04 {
+    margin-top: 90px;
+}
+
+.photos {
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+    color: #5863F8;
+    text-transform: uppercase;
+}
+
+.photos-titile-h3 {
+    font-family: 'Poppins-bold';
+    font-size: 40px;
+    width: 565px;
+}
+
+.photo-box {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.photo-box-image-01 {
+    opacity: 0.6;
+    transition: all 0.5s linear 0.5s;
+}
+
+.photo-box-image-01:hover {
+    opacity: 1;
+    transition: all 0.5s linear 0.5s;
+    cursor: pointer;
+}
+
+.photo-box-02 {
+    opacity: 0.6;
+    transition: all 0.5s linear 0.5s;
+}
+
+.photo-box-02:hover {
+    opacity: 1;
+    transition: all 0.5s linear 0.5s;
+    cursor: pointer;
+}
+
+.photo-box-image-03 {
+    opacity: 0.6;
+    transition: all 0.5s linear 0.5s;
+}
+
+.photo-box-image-03:hover {
+    opacity: 1;
+    transition: all 0.5s linear 0.5s;
+    cursor: pointer;
+}
+
+
+/* section-04 end  */
