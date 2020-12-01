@@ -349,3 +349,30 @@
 
 
 /* section-04 end  */
+
+
+/* section-05  */
+
+.section-05 {}
+
+.wrapper-box-05 {
+    padding-top: 90px;
+}
+
+.section-box-01 {
+    width: 260px;
+}
+
+.section-box-title {
+    font-family: 'Poppins-bold';
+}
+
+.section-box-p {
+    padding: 20px 0;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    color: #B1B1B1;
+}
+
+
+/* section-05 end  */
