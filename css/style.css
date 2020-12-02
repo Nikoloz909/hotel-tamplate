@@ -353,10 +353,13 @@
 
 /* section-05  */
 
-.section-05 {}
+.footer-section {
+    background-color: black;
+}
 
 .wrapper-box-05 {
     padding-top: 90px;
+    justify-content: space-between;
 }
 
 .section-box-01 {
@@ -365,6 +368,7 @@
 
 .section-box-title {
     font-family: 'Poppins-bold';
+    color: #fff;
 }
 
 .section-box-p {
@@ -374,5 +378,205 @@
     color: #B1B1B1;
 }
 
+.fa-facebook {
+    font-size: 30px;
+    color: #3B5998;
+    transition: all 0.2s linear 0.2s;
+}
+
+.fa-facebook:hover {
+    background-color: #B1B1B1;
+    cursor: pointer;
+    border-radius: 25%;
+}
+
+.fa-twitter-square {
+    font-size: 30px;
+    color: #55ACEE;
+    margin: 0 11px;
+}
+
+.fa-google-plus {
+    font-size: 30px;
+    color: #DC4E41;
+}
+
+.section-box-02 {
+    width: 103px;
+}
+
+.section-box-title-h3 {
+    font-family: 'Poppins-bold';
+    font-size: 15px;
+    color: #fff;
+}
+
+.blog-ul {
+    margin-top: 20px;
+}
+
+.blog-li {
+    padding-top: 10px;
+}
+
+.blog-a {
+    color: #5863F8;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-box-01 {
+    width: 90px;
+}
+
+.carer-ul {
+    padding-top: 20px;
+}
+
+.career-li {
+    margin-top: 10px;
+    color: #5863F8;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.footer-box-02 {
+    width: 200px;
+}
+
+.footer-box-title-02 {
+    font-family: 'Poppins-bold';
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-chhilde-ul {
+    margin-top: 20px;
+}
+
+.footer-childe-li {
+    color: #fff;
+    padding-top: 20px;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+}
+
+.fa-envelope {
+    color: #5863F8;
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+.fa-phone-alt {
+    color: #5863F8;
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+.fa-map-marker-alt {
+    color: #5863F8;
+    font-size: 15px;
+    margin-right: 14px;
+}
+
+.footer-box-title {
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-p {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    color: #B1B1B1;
+    cursor: pointer;
+}
+
+.Marian {
+    color: #5863F8;
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+}
+
 
 /* section-05 end  */
+
+
+/* end index.html section  */
+
+
+/* resauranet page  */
+
+
+/* restaurant header  */
+
+.bg-image-wrapper {
+    background-image: url('../img/Group\ 72.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-wrapper {
+    padding-top: 30px;
+    justify-content: space-between;
+}
+
+.banner-logo {
+    font-family: 'Poppins-bold';
+    font-size: 14px;
+    color: #fff;
+}
+
+.rest-li {
+    font-family: 'Poppins-bold';
+    font-size: 12px;
+    color: #fff;
+    margin-right: 60px;
+    text-transform: uppercase;
+}
+
+.rest-li:first-child {
+    color: #5863F8;
+}
+
+.rest-li:last-child {
+    margin-right: 0px;
+}
+
+.restaurant-block {
+    margin-top: 90px;
+    padding-bottom: 85px;
+}
+
+.restaurant-title-01 {
+    font-family: 'Poppins-bold';
+    font-size: 42px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home-block {
+    margin-top: 15px;
+}
+
+.divider {
+    width: 2px;
+    height: 15px;
+    background-color: #fff;
+    margin: 0 15px;
+}
+
+.home-par-01,
+.rest-par {
+    font-family: 'Poppins-medium';
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+/* restaurant header end  */
