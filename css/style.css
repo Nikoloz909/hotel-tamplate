@@ -617,6 +617,7 @@
 
 .rest-menu-wrapper {
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .menu-box-01 {
