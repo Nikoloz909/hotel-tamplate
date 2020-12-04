@@ -676,4 +676,58 @@
 /* section-02 end  */
 
 
+/* section-03  */
+
+.rest-section-03 {
+    margin-top: 90px;
+    background-color: #F8F8F8;
+}
+
+.form-wrapper {
+    padding-top: 53px;
+    padding-bottom: 53px;
+}
+
+.firs-form-box {
+    max-width: 260px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.input-first {
+    width: 260px;
+    height: 60px;
+}
+
+.label-firs {
+    color: #5863F8;
+    font-family: 'Poppins-medium';
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.input-first {
+    border: 2px #EBEBEB solid;
+}
+
+.input-first::placeholder {
+    color: #CECECE;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.secend-form-box {
+    flex-direction: column;
+}
+
+.label-second {
+    color: #5863F8;
+    font-family: 'Poppins-medium';
+    font-size: 13px;
+}
+
+
+/* section-03 end  */
+
+
 /* restaurant page end  */

@@ -152,3 +152,10 @@ button {
 img {
     display: block;
 }
+
+input,
+textarea,
+button {
+    outline: none;
+    border: 0;
+}
