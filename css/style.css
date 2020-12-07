@@ -474,19 +474,7 @@
     font-size: 14px;
 }
 
-.fa-envelope {
-    color: #5863F8;
-    font-size: 15px;
-    margin-right: 14px;
-}
-
-.fa-phone-alt {
-    color: #5863F8;
-    font-size: 15px;
-    margin-right: 14px;
-}
-
-.fa-map-marker-alt {
+.mails {
     color: #5863F8;
     font-size: 15px;
     margin-right: 14px;
@@ -781,3 +769,175 @@
 
 
 /* restaurant page end  */
+
+
+/* contact page  */
+
+
+/* map section  */
+
+.map-section {
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+
+.iframe-map {
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+}
+
+
+/* map section end  */
+
+
+/* form section  */
+
+.form-title {
+    max-width: 380px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.form-p {
+    font-family: 'Poppins-bold';
+    color: #5863F8;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.form-title {
+    font-family: 'Poppins-bold';
+    font-size: 42px;
+}
+
+.contact-form {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-left {
+    max-width: 720px;
+    width: 100%;
+}
+
+.textarea-wrapper {
+    resize: none;
+    border: 2px solid #E8E8E8;
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    padding: 20px 20px;
+    background-color: #F8F8F8;
+    font-size: 13px;
+}
+
+.textarea-wrapper::placeholder {
+    font-family: 'Poppins-regural';
+    font-size: 13px;
+    color: #CECECE;
+}
+
+.contact-right {
+    max-width: 360px;
+    width: 100%;
+}
+
+.contact-firs-label {
+    max-width: 352px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.con-input-01 {
+    width: 352px;
+    height: 60px;
+    border: 2px solid #E8E8E8;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+.con-input-01::placeholder {
+    font-family: 'Poppins-regural';
+    font-size: 13px;
+    color: #CECECE;
+}
+
+.cont-btn {
+    max-width: 352px;
+    width: 100%;
+    height: 60px;
+    font-family: 'Poppins-regural';
+    font-size: 14px;
+    color: #fff;
+    background-color: #5863F8;
+    cursor: pointer;
+}
+
+.fa-paper-plane {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+
+/* form section end  */
+
+
+/* info section  */
+
+.contact-info-wrapper {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.info-box-01 {
+    max-width: 362px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con-blue-box {
+    width: 59px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail {
+    color: #fff;
+    font-size: 16px;
+}
+
+.con-info-p {
+    width: 362px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-h3 {
+    margin: 15px 0;
+    font-family: 'Poppins-bold';
+    font-size: 18px;
+}
+
+.a-mailto {
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #B1B1B1;
+}
+
+.a-malito-01 {
+    font-family: 'Poppins-medium';
+    font-size: 14px;
+    color: #B1B1B1;
+}
+
+
+/* info section end  */
+
+
+/* contact page end  */
