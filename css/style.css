@@ -51,8 +51,13 @@
     color: #fff;
     font-family: 'Poppins-bold';
     font-size: 14px;
+    transition: auto;
 }
-
+.logo-title:hover{
+    text-decoration: underline;
+    transition: auto;
+    color: #3B5998;
+}
 .navbar {
     color: #fff;
     font-family: 'Poppins-medium';
@@ -63,8 +68,13 @@
 .nav-li {
     margin-right: 60px;
     text-transform: uppercase;
+    transition: auto;
 }
-
+.nav-li:hover{
+    color: #3B5998;
+    transition: auto;
+    text-decoration: underline;
+}
 .fa-bars {
     font-size: 30px;
     color: #fff;
@@ -84,6 +94,7 @@
 
 .about {
     margin-top: 96px;
+    
 }
 
 .about-h2 {
@@ -91,6 +102,8 @@
     font-size: 42px;
     color: #fff;
     text-transform: capitalize;
+    text-shadow: 3px 3px #3B5998;
+    cursor: default;
 }
 
 .home-par {
@@ -356,47 +369,47 @@
 }
 
 .photo-box-image-01 {
-    opacity: 0.6;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    opacity: 1;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
 }
 
 .photo-box-image-01:hover {
-    opacity: 1;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    opacity: 0.6;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
     cursor: pointer;
 }
 
 .photo-box-02 {
     opacity: 0.6;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
 }
 
 .photo-box-02:hover {
     opacity: 1;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
     cursor: pointer;
 }
 
 .photo-box-image-03 {
-    opacity: 0.6;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    opacity: 1;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
 }
 
 .photo-box-image-03:hover {
-    opacity: 1;
-    -webkit-transition: all 0.5s linear 0.5s;
-    -o-transition: all 0.5s linear 0.5s;
-    transition: all 0.5s linear 0.5s;
+    opacity: 0.7;
+    -webkit-transition: all 0.3s linear 0.3s;
+    -o-transition: all 0.3s linear 0.3s;
+    transition: all 0.3s linear 0.3s;
     cursor: pointer;
 }
 
@@ -433,7 +446,8 @@
     color: #B1B1B1;
 }
 
-.fa-facebook {
+.soc-icon{
+    opacity: 0.6;
     font-size: 30px;
     color: #3B5998;
     -webkit-transition: all 0.2s linear 0.2s;
@@ -441,10 +455,11 @@
     transition: all 0.2s linear 0.2s;
 }
 
-.fa-facebook:hover {
-    background-color: #B1B1B1;
+.soc-icon:hover {
     cursor: pointer;
     border-radius: 25%;
+    transition: auto;
+    opacity: 1;
 }
 
 .fa-twitter-square {
@@ -474,8 +489,15 @@
 
 .blog-li {
     padding-top: 10px;
+    opacity: 0.5;
+    transition: all 0.1s linear 0.1s;
 }
-
+.blog-li:hover{
+    opacity: 1;
+    transition: all 0.1s linear 0.1s;
+    color: #fff;
+    
+}
 .blog-a {
     color: #5863F8;
     font-family: 'Poppins-medium';
@@ -497,8 +519,14 @@
     font-family: 'Poppins-medium';
     font-size: 14px;
     text-transform: capitalize;
+    opacity: 0.6;
+    transition: all 0.1s linear 0.1s;
 }
-
+.career-li:hover{
+    opacity: 1;
+    transition: all 0.1s linear 0.1s;
+    color: #fff;
+}
 .footer-box-02 {
     width: 200px;
 }
@@ -518,8 +546,14 @@
     padding-top: 20px;
     font-family: 'Poppins-medium';
     font-size: 14px;
+    opacity: 0.6;
+    transition: all 0.1s linear 0.1s;
 }
-
+.footer-childe-li:hover{
+    text-decoration: underline;
+    opacity: 1;
+    transition: all 0.1s linear 0.1s;
+}
 .mails {
     color: #5863F8;
     font-size: 15px;
@@ -545,8 +579,15 @@
     color: #5863F8;
     font-family: 'Poppins-medium';
     font-size: 14px;
+    transition: all 0.1s linear 0.1s;
 }
+.Marian:hover{
+    color: #fff;
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: all 0.1s linear 0.1s;
 
+}
 
 /* section-05 end  */
 
@@ -749,6 +790,7 @@
     width: 260px;
     height: 60px;
     border: 2px #EBEBEB solid;
+    padding-left: 20px;
 }
 
 .label-firs {
@@ -806,6 +848,7 @@
     width: 260px;
     height: 60px;
     border: 2px #EBEBEB solid;
+    padding-left: 20px;
 }
 
 .input-second::-webkit-input-placeholder {
@@ -832,11 +875,6 @@
     font-size: 13px;
 }
 
-.input-second::placeholder {
-    color: #CECECE;
-    padding-left: 20px;
-    font-size: 13px;
-}
 
 .theerd-form {
     -webkit-box-orient: vertical;
@@ -856,6 +894,7 @@
     width: 260px;
     height: 60px;
     border: 2px #EBEBEB solid;
+    padding-left: 20px;
 }
 
 .therd-input::-webkit-input-placeholder {
@@ -1148,3 +1187,6 @@
 
 
 /* contact page end  */
+
+
+
