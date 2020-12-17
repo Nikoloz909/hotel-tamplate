@@ -75,10 +75,11 @@
     transition: auto;
     text-decoration: underline;
 }
-.fa-bars {
+.fa-bars{
     font-size: 30px;
     color: #fff;
     display: none;
+    cursor: pointer;
 }
 
 .blue {
@@ -290,7 +291,8 @@
 
 .left-block-03 {
     padding-top: 76px;
-    width: 512px;
+   max-width: 512px;
+   width: 100%;
 }
 
 .left-block-h3 {
@@ -303,10 +305,11 @@
     font-size: 42px;
     font-family: 'Poppins-medium';
     font-weight: bold;
-    width: 512px;
+    max-width: 512px;
+    width: 100%;
 }
 
-.image-03 {
+.image-walpaper {
     max-width: 583px;
     width: 100%;
 }
@@ -1055,7 +1058,6 @@
 }
 
 .con-input-01 {
-    width: 352px;
     height: 60px;
     border: 2px solid #E8E8E8;
     padding-left: 20px;
@@ -1181,12 +1183,4 @@
     font-size: 14px;
     color: #B1B1B1;
 }
-
-
 /* info section end  */
-
-
-/* contact page end  */
-
-
-

@@ -1,0 +1,241 @@
+@media (max-width:1125px){
+    .navbar{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
+    .conainer{
+        padding: 0 20px;
+    }
+   
+}
+
+@media (max-width:1100px){
+    .menu-box-01 {
+        width: 466px;
+     
+    }
+    .button{
+        width:80px;
+    }
+    
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .box-01{
+        width: 460px;
+    }
+    .menu-box-p-01{
+        padding-left: 20px;
+        max-width: 500px;
+        width: 100%;
+    }
+    .left-block-03 {
+        max-width: 500px;
+        width: 100%;
+    }
+    .left-block-03 {
+        max-width: 450px;
+        width: 100%;
+    }
+    .left-block-par-03{
+        font-size: 30px;
+    }
+    .picture-box{
+        margin-left: 40px;
+    }
+    .imae-01,
+    .image-02 {
+        width: 436px;
+        
+    }
+    .image-large{
+        width: 536px;
+    }
+    .image-03{
+        width: 100%; 
+    }
+    .image-walpaper{
+        margin-left: 40px;
+    }
+    .left-block-par-03{
+        width: 450px;
+    }
+    .rest-right-box{
+        margin-left: 40px;
+    }
+    .left-p{
+        width: 436px;
+        font-size: 35px;
+    }
+    .rest-menu-h3{
+        font-size: 35px;
+    }
+    .rest-right-h3{
+        font-size: 35px;
+    }
+    .form-title{
+        font-size: 38px;
+    }
+    .contact-left{
+        margin-right: 30px;
+    }
+    .secend-form-box {
+        margin: 0 30px;
+    }
+    .form-btn{
+        margin-left: 30px;
+    }
+    .photos-titile-h3{
+        font-size: 35px;
+    }
+    .photo-box-01,
+    .photo-box-02,
+    .photo-box-03{
+        width: 420px;
+        
+        
+    }
+    .photo-box-02{
+        margin: 0 30px;
+    }
+    .photo-box-image-01,
+    .photo-box-image-02,
+    .photo-box-image-03{
+        width: 100%;
+    }
+    .footer-box-02{
+        margin-right: 20px;
+    }
+    .box-01 {
+        margin-left: 20px;
+    }
+    .box-01-par{
+        padding: 5 10px;
+    }
+    .box-01-p{
+        font-size: 15px;
+    }
+    .image-walpaper{
+        width: 500px;
+    }
+    .walpaper-image-03{
+
+        width: 100%;
+    }
+    .rest-menu-wrapper{
+        flex-wrap: wrap-reverse;
+    }
+    .left-block-par-03{
+        max-width: 512px;
+        width: 100%;
+        
+    }
+    
+}
+@media (max-width:1048px){
+    .rest-iamge-02,
+    .rest-image-03{
+        width: 100%;
+    }
+    .img-01{
+        width: 200px;
+    }
+    .imae-01,
+    .image-02 {
+      width: 240px;
+     
+    }
+    .image-large{
+        width:500px;
+    }
+    .box-01-par{
+       margin: 10px;
+    }
+    .block-wrappers{
+        flex-wrap: wrap;
+    }
+    .box-01{
+        max-width:400px;
+        width: 100%;
+        margin-bottom: 20px;
+       
+    }
+    .box-01-par{
+        font-size: 15px;
+    }
+    .block-title-par{
+        margin-left: 10px;
+    }
+    .warpper-form{
+        flex-wrap: wrap;
+        
+        
+
+    }
+    .theerd-form {
+        max-width: 500px;
+        width: 100%;
+    }
+    .secend-form-box{
+        margin: 0;
+    }
+    .input-second,
+    .input-first,
+    .therd-input{
+        width: 350px;
+    }
+    .form-btn{
+        margin: 0;
+        margin-top: 10px;
+        width:350px;
+        align-self: flex-start;
+        
+        
+    }
+    .firs-form-box{
+        margin-bottom: 10px;
+    }
+   
+    
+}
+@media (max-width:1010px){
+    .img-01{
+        display: flex;
+        flex-direction: column;
+        max-width: 330px;
+        width: 100%;
+    }
+    .imae-01,
+    .image-02{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .image-large{
+        max-width: 430px;
+        width: 100%;
+    }
+    .picture-box{
+        padding-left: 100px;
+    }
+    .menu-box-01{
+        width: 360px;
+    }
+    .menu-img-01{
+        width: 160px;
+    }
+    .menu-h3-title{
+        font-size: 14px;
+    }
+    .menu-food{
+        font-size: 12px;
+    }
+    .menu-img-01{
+        width: 150px;
+    }
+    .menu-text-p{
+        margin-right: 10px;
+    }
+}
