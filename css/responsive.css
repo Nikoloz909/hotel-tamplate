@@ -238,4 +238,65 @@
     .menu-text-p{
         margin-right: 10px;
     }
+    .rest-image-02{
+      width: 220px;
+    }
+    .rest-right-h3{
+        font-size: 25px;
+    }
+    .rest-box-par-01,
+    .rest-box-par-02{
+        font-size: 13px;
+    }
+    .btn{
+        width: 150px;
+    }
+    .left-block-p{
+        font-size: 14px;
+    }
+    .left-p{
+        width: 100%;
+        font-size: 30px;
+    }
+    .photos-titile-h3{
+        font-size: 35px;
+    }
+    .form-title{
+        font-size: 35px;
+    }
+}
+@media (max-width:906px){
+    .box-01 {
+        max-width: 350px;
+    }
+    .theerd-form {
+        max-width: 350px;
+    }
+    
+    .image-03{
+        width: 300px;
+    }
+    .image-02,
+    .imae-01{
+        width: 250px;
+        align-self: center;
+    }
+    .imae-01{
+        margin-right: 0px;
+    }
+    .left-block-03{
+        padding-bottom: 30px;
+    }
+    .left-block-par-03{
+        font-size: 25px;
+    }
+    .walpaper-image-03{
+        width: 375px;
+    }
+    .form-btn{
+        margin-top: 17px;
+    }
+    .photos-titile-h3{
+        font-size: 30px;
+    }
 }

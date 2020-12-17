@@ -81,7 +81,10 @@
     display: none;
     cursor: pointer;
 }
-
+.fa-bars:hover{
+    color: #5863F8;
+    transition: all 0.1s linear 0.1s ;
+}
 .blue {
     color: #5863F8;
     font-family: 'Poppins-medium';
