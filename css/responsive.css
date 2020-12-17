@@ -300,3 +300,102 @@
         font-size: 30px;
     }
 }
+@media (max-width:795px){
+        .box-01 {
+            max-width: 280px;
+            width: 100%;
+        }
+        .left-block-h3{
+            font-size: 12px;
+        }
+        .left-block-par-03{
+            font-size: 20px;
+        }
+        .left-block-p{
+            font-size: 12px;
+        }
+        .left-block-par{
+            font-size: 12px;
+        }
+        .read{
+            width: 150px;
+            height: 40px;
+        }
+        .menu-box-01{
+            width: 330px;
+        }
+        .footer-box-01{
+            margin: 0 35px;
+        }
+        .section-box-01{
+            margin-right: 10px;
+        }
+        .section-box-p{
+            font-size: 11px;
+            max-width: 170px;
+            width: 100%;
+        }
+        .footer-childe-li{
+            font-size: 12px;
+        }
+        .career-li,
+        .blog-li,
+        .footer-box-title,
+        .footer-box-title-02,
+        .section-box-title-h3,
+        .section-box-title{
+            font-size: 13px;
+        }
+        .soc-icon{
+            font-size: 25px;
+        }
+        .footer-p{
+            font-size: 13px;
+        }
+        .input-second,
+        .form-btn,
+        .therd-input,
+        .input-first{
+            width: 330px;
+        }
+        .rest-image-02{
+            width: 200px;
+        }
+        .rest-image-02,
+        .rest-image-03{
+            width: 180px;
+        }
+        .rest-box-par-01,
+        .rest-box-par-02{
+            font-size: 11px;
+        }
+        .btn{
+            width: 130px;
+            height: 40px;
+        }
+        .button{
+            width: 60px;
+            height: 30px;
+        }
+        .con-input-01,
+        .cont-btn{
+            width: 330px;
+            height: 50px;
+        }
+        .textarea-wrapper{
+            max-width: 350px;
+            width: 100%;
+            height: 250px;
+
+        }
+        .menu-text-p{
+            font-size: 12px;
+        }
+        .menu-h3-title{
+            font-size: 13px;
+        }
+
+}
+@media (max-width:730px){
+    
+}
