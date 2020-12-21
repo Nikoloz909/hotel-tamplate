@@ -764,4 +764,116 @@
         width: 100%;
         margin-top: 20px;
     }
+    .block-wrappers {
+        flex-direction: column;
+        align-items: center;
+    }
+    .rest-menu-wrapper,
+    .warpper-form,
+    .contact-form,
+    .contact-info-wrapper,
+    .photo-box ,
+    .wrapper-box-05 {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .form-btn{
+        align-self: center;
+    }
+    .section-01-left{
+        width: 100%;
+        
+       
+    }
+    .image-large{
+        max-width: 315px;
+        width: 100%;
+        margin: 0;
+        padding-top: 10px;
+    }
+    .image-03{
+        width: 100%;
+    }
+    .imae-01{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .image-02{
+        width: 100%;
+    }
+    .picture-box{
+        width: 100%;
+    }
+    .img-01 {
+        max-width: 315px;
+        width: 100%;
+        flex-direction: column;
+        
+    }
+    .left-block-p,
+    .left-block-par,
+    .left-p{
+        max-width: 315px;
+        width: 100%;
+    }
+    .left-p{
+        font-size: 30px;
+    }
+    .box-01{
+        max-width: 315px;
+        width: 100%; 
+    }
+    
+    .rest-image-02,
+    .rest-image-03{
+        width: 100%;
+    }
+    .rest-right-box{
+        max-width: 300px;
+        width: 100%;
+    }
+    .rest-box-par-01,
+    .rest-box-par-02{
+        font-size: 12px;
+    }
+}
+@media (max-width:520px){
+    .image-walpaper{
+        margin: 0;
+        max-width: 500px;
+        width: 100%;
+    }
+    .walpaper-image-03{
+        width: 100%;
+    }
+}
+@media (max-width:420px){
+    .block-title-par{
+        max-width: 270px;
+        width: 100%;
+        font-size: 25px;
+    }
+}
+@media (max-width:380px){
+    .box-01{
+        max-width: 250px;
+        width: 100%;
+        margin-right: 30px;
+    }
+    .block-title-par{
+        max-width: 250px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .about-h2{
+        font-size: 25px;
+    }
+    .about-p,
+    .home-p{
+        font-size: 12px;
+    }
+    .divider{
+        height: 14px;
+    }
 }
