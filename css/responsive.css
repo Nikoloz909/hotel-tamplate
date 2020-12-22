@@ -1,3 +1,24 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+    background: linear-gradient(to bottom, white, black);
+}
 @media (max-width:1125px){
     .navbar{
         display: none;
@@ -126,14 +147,17 @@
         width: 100%;
     }
     .rest-menu-wrapper{
-        flex-wrap: wrap-reverse;
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
     }
     .left-block-par-03{
         max-width: 512px;
         width: 100%;
         
     }
-    
+    .contact-left{
+        margin-right: 15px;
+    }
 }
 @media (max-width:1048px){
     .rest-iamge-02,
@@ -155,7 +179,8 @@
        margin: 10px;
     }
     .block-wrappers{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .box-01{
         max-width:400px;
@@ -170,7 +195,8 @@
         margin-left: 10px;
     }
     .warpper-form{
-        flex-wrap: wrap;  
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;  
 
     }
     .theerd-form {
@@ -189,7 +215,8 @@
         margin: 0;
         margin-top: 10px;
         width:350px;
-        align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start;
         
         
     }
@@ -518,7 +545,8 @@
         width: 100%;
     }
     .wrapper-box-05{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .section-box-02{
         width: 300px;
@@ -651,7 +679,9 @@
 
     }
     .rest-picture-box {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .rest-image-02{
         margin-bottom: 0px;
@@ -733,8 +763,13 @@
 }
 @media (max-width:630px){
     .section-wrapper{
-        flex-direction:column-reverse;
-        align-items: center;
+        -webkit-box-orient:vertical;
+        -webkit-box-direction:reverse;
+            -ms-flex-direction:column-reverse;
+                flex-direction:column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .picture-box{
         margin: 0;
@@ -745,28 +780,47 @@
         margin-top: 20px;
     }
     .section-03-wrapper {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .image-walpaper{
         margin-left: 20px;
     }
     .rest-section-wrapper {
-        flex-direction: column-reverse;
-        justify-content: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .rest-right-box{
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
     }
     .rest-picture-box {
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         max-width: 300px;
         width: 100%;
         margin-top: 20px;
     }
     .block-wrappers {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .rest-menu-wrapper,
     .warpper-form,
@@ -774,12 +828,19 @@
     .contact-info-wrapper,
     .photo-box ,
     .wrapper-box-05 {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
 
     }
     .form-btn{
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
     }
     .section-01-left{
         width: 100%;
@@ -808,7 +869,10 @@
     .img-01 {
         max-width: 315px;
         width: 100%;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         
     }
     .left-block-p,
@@ -837,6 +901,81 @@
     .rest-box-par-02{
         font-size: 12px;
     }
+    .firs-form-box,
+    .secend-form-box{
+        max-width: 260px;
+        width: 100%;
+    }
+    .form-btn{
+        max-width: 250px;
+        width: 100%;
+        margin-right: 10px;
+    }
+    .menu-img-01{
+        max-width: 120px;
+        width: 100%;
+        
+    }
+    .menu-box-01{
+        max-width: 270px;
+        width: 100%;
+    }
+    .contact-left{
+        max-width: 260px;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-right:100px;
+    }
+    .contact-form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .form-title{
+        font-size: 30px;
+    }
+    .con-blue-box{
+        margin: 25px 0;
+    }
+    .theerd-form {
+        margin-top: 10px;
+    }
+    .info-box-01 {
+        margin-right: 100px;
+    }
+    .photo-box-01,
+    .photo-box-image-01,
+    .photo-box-image-02,
+    .photo-box-image-03,
+    .photo-box-03,
+    .photo-box-03{
+        max-width: 420px;
+        width: 100%;
+    }
+    .photo-box-02{
+        margin: 20px 0;
+    }
+    .section-box-01,
+    .section-box-02,
+    .footer-box-01,
+    .footer-box-02{
+        max-width: 260px;
+        width: 100%;
+        margin: 0;
+    }
+    .section-box-02,
+    .footer-box-02{
+        margin: 15px 0;
+    }
+
+}
+@media (max-width:534px){
+    .image-walpaper{
+        max-width: 450px;
+        width: 100%;
+    }
 }
 @media (max-width:520px){
     .image-walpaper{
@@ -847,6 +986,18 @@
     .walpaper-image-03{
         width: 100%;
     }
+    .photo-box-01,
+    .photo-box-image-02,
+    .photo-box-image-03,
+    .photo-box-02,
+    .photo-box-03{
+        max-width: 270px;
+        width: 100%;
+    }
+    .photos-titile-h3{
+        font-size: 25px;
+    }
+    
 }
 @media (max-width:420px){
     .block-title-par{
@@ -854,8 +1005,32 @@
         width: 100%;
         font-size: 25px;
     }
+   
+}
+@media (max-width:412px){
+    .contact-left,
+    .info-box-01{
+        margin-right: 90px;
+    }
+    .section-01-title{
+        font-size: 12px;
+    }
+    .left-p{
+        font-size: 25px;
+    }
+}
+@media (max-width:400px){
+    .contact-left,
+    .info-box-01{
+        margin-right: 80px;
+    }
 }
 @media (max-width:380px){
+    .contact-left,
+    .info-box-01{
+        margin-right: 0px;
+    }
+   
     .box-01{
         max-width: 250px;
         width: 100%;
@@ -875,5 +1050,16 @@
     }
     .divider{
         height: 14px;
+    }
+    .contact-left{
+        margin-right: 0px;
+    }
+    .form-title{
+        max-width: 250px;
+        width: 100%;
+        font-size: 25px;
+    }
+    .photos-titile-h3{
+        font-size: 15px;
     }
 }
